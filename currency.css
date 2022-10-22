@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner&family=Inconsolata&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Edu QLD Beginner', cursive;
+
+}
+
+body{
+    background-color: #ffffff;
+
+}
+
+.stateOne{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.flag{
+    width: 1.5em;
+    height: 1em;
+}
+
+.exchangeLogo{
+    width: 2em;
+    height: 2em;
+}
+
+.input:focus{
+    outline:0.8px solid #03c50d;
+}
+
+.amount:focus{
+    outline:0.8px solid #03c50d;
+}
+.result:focus{
+    outline: 0.8px solid #03c50d;
+}
+
+.input{
+    cursor: pointer;
+    width: 50%;
+    text-overflow:ellipsis;
+    border-radius: 1em;
+    padding: 0.4em;
+    background-color: rgb(247, 247, 247);
+    border: none;
+
+}
+
+.result, .amount{
+    width: 100%;
+    cursor: pointer;
+    text-overflow:ellipsis;
+    border-radius: 1em;
+    padding: 0.4em;
+    background-color: rgb(247, 247, 247);
+    border: none;
+}
+
+
+.save{
+    display: flex;
+    flex-direction: column;
+}
+
+.btnLight{
+    background-color: rgb(250, 250, 250);
+    color: rgb(131, 131, 131);
+}
+
+.saveBtn{
+    background-color: #54ba0a;
+    color: #ffffff;
+}
+
+table{
+    display: none;
+}
+.tableColor{
+    color: #54ba0a;
+}
+
+.noDataDisplay{
+    display: none;
+}
+
+
